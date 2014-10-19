@@ -103,7 +103,7 @@ def parse(a,cursor):
 		subs = get_symbol(word,cursor)
 		a = a.replace("{"+word+"}",subs,1)
 		b = a.find('{')
-	print a
+	return a
 
 def get_symbol(word,cursor):
 	word2 = ""
@@ -192,10 +192,10 @@ def get_line(cursor):
 	randnum = random.randint(0,2)
 	if randnum == 0:
 		quote = get_quote()
-		parse(quote,cursor)
+		return parse(quote,cursor)
 	else:
 		non_quote = get_non_quote()
-		parse(non_quote,cursor)
+		return parse(non_quote,cursor)
 
 def get_quote():
 	global quotes
@@ -212,9 +212,11 @@ def main():
 	fill_lists(cnx,cursor,'verbs')
 	fill_lists(cnx,cursor,'adjectives')
 	fill_lists(cnx,cursor,'time')
+	text = ""
+    wrapper = textwrap.TextWrapper(fix_sentence_endings = True, width = width)
 	for i in range (0,100):
-		get_line(cursor)
-
+		text += get_line(cursor)
+	print wrapper.fill(text)
 	cursor.close()
 	cnx.close()
 
