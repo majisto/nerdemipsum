@@ -1,2 +1,4 @@
 nerdemipsum
 ===========
+
+Nerdem Ipsum is a version of Lorem Ipsum using nerd words instead of incomprehensible Latin phrases.  At its core sits a python script (called db_scraper.py) that uses installed phrases with some natural language substition phrases and then selects words from a linked clearDB database hosted on Microsoft Azure.  The substitutions are not completely random!  The result is a paragraph of comprehensible, and humrous sentences.  We also plan on supporting an ability to do mad libs through a web app that is under construction.  You can find that at http://nerdemipsum.azurewebsites.net/  If you just want some humor, download the db_scraper.py file and just run it under Python 2.  The database will automatically be pulled from, and on the console will be your Nerdem Ipsum paragraph.
