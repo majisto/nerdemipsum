@@ -1,13 +1,13 @@
 import mysql.connector
 import random
+import textwrap
 nouns = []
 verbs = []
 adjectives = []
 adverbs = []
 time = []
 
-quotes = """"To {t_verb} the {thing}, you must {t_verb} the {thing}," {person} said.
-"Go to {place} and fetch me the {thing}," said {person}.
+quotes = """""Go to {place} and fetch me the {thing}," said {person}.
 "{person}, hand me the {thing}!" yelled {person}.
 "We ran after {pl_species} overran {place}." {person} said.
 "Anger leads to hate.  Hate leads to {place}."
@@ -40,14 +40,14 @@ non_quotes = """{person} {adv} {t_verb} the {thing}.
 {person} had never seen a {adj} {thing} before.
 During {event}, the {pl_species} fled into {place}.
 The {adj} {thing} was lost during {event}.
-{place}.  You will never find a more wretched hive of {thing} and {thing}.
+{place}:  You will never find a more wretched hive of {thing} and {thing}.
 Don't underestimate the {thing}.
 {person} vowed vengeance against the {pl_species}.
 {person} taught {person} how to use the {thing}.
 {person} and {person} embarked upon a quest to destroy the {thing}.
 {person} led the rebels against {person}'s evil empire.
 {person} grew up on {place} and was raised by {pl_species}.
-{person} {verb} on {thing}.
+{person} {t_verb} the {thing}.
 The {pl_species} {verb} from the {pl_species} after {event}.
 The {pl_species} {verb} to {place}.
 The {pl_species} {verb} too {adv} and too {adv}.
@@ -215,7 +215,7 @@ def main():
 	fill_lists(cnx,cursor,'adjectives')
 	fill_lists(cnx,cursor,'time')
 	text = ""
-    wrapper = textwrap.TextWrapper(fix_sentence_endings = True, width = width)
+	wrapper = textwrap.TextWrapper(fix_sentence_endings = True, width = width)
 	for i in range (0,numSent):
 		text += get_line(cursor) + "  "
 	print wrapper.fill(text)
