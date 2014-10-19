@@ -206,6 +206,8 @@ def get_non_quote():
 	return random.choice(non_quotes)
 
 def main():
+	width = 100
+	numSent = 8
 	cnx, cursor = connect()
 	fill_lists(cnx,cursor,'nouns')
 	fill_lists(cnx,cursor,'adverbs')
@@ -214,8 +216,8 @@ def main():
 	fill_lists(cnx,cursor,'time')
 	text = ""
     wrapper = textwrap.TextWrapper(fix_sentence_endings = True, width = width)
-	for i in range (0,100):
-		text += get_line(cursor)
+	for i in range (0,numSent):
+		text += get_line(cursor) + "  "
 	print wrapper.fill(text)
 	cursor.close()
 	cnx.close()
