@@ -32,7 +32,7 @@ quotes = """""Go to {place} and fetch me the {thing}," said {person}.
 
 non_quotes = """{person} {adv} {t_verb} the {thing}.
 {person} and {thing} simply don't mix.
-{thing} and {thing}: two great tastes that go great together.
+{thing} and {thing}: two great tastes that taste great together.
 {time}, the {pl_species} had no fear of {pl_thing}.
 {person} and {person} {adv} {verb} to their death.
 {time}, the {pl_species} and the {pl_species} were at war.
@@ -49,7 +49,7 @@ Don't underestimate the {thing}.
 {person} taught {person} how to use the {thing}.
 {person} and {person} embarked upon a quest to destroy the {thing}.
 {person} led the rebels against {person}'s evil empire.
-{person} grew up on {place} and was raised by {pl_species}.
+{person} grew up {p_place} and was raised by {pl_species}.
 {person} {t_verb} the {thing}.
 The {pl_species} {verb} from the {pl_species} after {event}.
 The {pl_species} {verb} to {place}.
