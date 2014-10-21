@@ -1,15 +1,18 @@
 import mysql.connector
 import random
 import textwrap
+import re
 nouns = []
 verbs = []
 adjectives = []
 adverbs = []
 time = []
+lexicon = {}
+
 
 quotes = """""Go to {place} and fetch me the {thing}," said {person}.
 "{person}, hand me the {thing}!" yelled {person}.
-"We ran after {pl_species} overran {place}." {person} said.
+"We ran after {pl_species} overran {place}," {person} said.
 "Anger leads to hate.  Hate leads to {place}."
 "{person} and {person} at {place}.  {person}, when the walls fell."
 "Where were the {pl_species} when {place} fell?!" {person} shouted.
@@ -29,13 +32,13 @@ quotes = """""Go to {place} and fetch me the {thing}," said {person}.
 
 non_quotes = """{person} {adv} {t_verb} the {thing}.
 {person} and {thing} simply don't mix.
-{thing} and {thing}: two tastes that go great together.
+{thing} and {thing}: two great tastes that go great together.
 {time}, the {pl_species} had no fear of {pl_thing}.
 {person} and {person} {adv} {verb} to their death.
 {time}, the {pl_species} and the {pl_species} were at war.
 {time}, the {species} people lived {p_place}.
 {person} was a {species} from {place}.
-{person} used the {thing} to {t_verb} the {thing}.
+{person} used the {thing} and {t_verb} the {thing}.
 {person} and {person} travelled together to {place}.
 {person} had never seen a {adj} {thing} before.
 During {event}, the {pl_species} fled into {place}.
@@ -65,7 +68,7 @@ Then {person} {verb} all the way to {place}.
 {person} {t_verb} the {thing} against all advice.
 That {thing} just {t_verb} {place}!
 {p_place}, {thing} {t_verb} you.
-{person} {t_verb} an entire villiage of {species}.""".split('\n')
+{person} {t_verb} an entire village of {pl_species}.""".split('\n')
 
 def connect():
 	config = {
@@ -95,131 +98,71 @@ def fill_lists(cnx,cursor,table_name):
 	for (word) in cursor:
 		eval(table_name).append(word)
 
-def parse(a,cursor):
-	b = a.find('{')
-	while (b != -1):
-		c = a.find('}')
-		word = a[b+1:c]
-		subs = get_symbol(word,cursor)
-		a = a.replace("{"+word+"}",subs,1)
-		b = a.find('{')
-	return a
+def parse(pattern):
+    """Replaces every {term} with a random item from lexicon[term].  Allows recursion."""
+    while "{" in pattern:
+        pattern = re.sub('{([^}]+)}', replacer, pattern)
+    return pattern
 
-def get_symbol(word,cursor):
-	word2 = ""
-	if word == 'adv':
-		word2 = random.choice(adverbs)[1]
-	if word == 'person':
-		things = []
-		query = "SELECT * FROM nouns WHERE subtype='person'"
-		cursor.execute(query)
-		for word in cursor:
-			things.append(word)
-		word2 = random.choice(things)[1]
-	if word == 'adv':
-		word2 = random.choice(adverbs)[1]
-	if word == 'thing':
-		things = []
-		query = "SELECT * FROM nouns WHERE subtype='thing'"
-		cursor.execute(query)
-		for word in cursor:
-			things.append(word)
-		word2 = random.choice(things)[1]
-	if word == 't_verb':
-		things = []
-		query = "SELECT * FROM verbs WHERE trans='yes'"
-		cursor.execute(query)
-		for word in cursor:
-			things.append(word)
-		word2 = random.choice(things)[1]
-	if word == 'place':
-		things = []
-		query = "SELECT * FROM nouns WHERE subtype='place'"
-		cursor.execute(query)
-		for word in cursor:
-			things.append(word)
-		word2 = random.choice(things)[1]
-	if word == 'pl_species':
-		things = []
-		query = "SELECT * FROM nouns WHERE subtype='species' AND number='plural'"
-		cursor.execute(query)
-		for word in cursor:
-			things.append(word)
-		word2 = random.choice(things)[1]
-	if word == 'p_place':
-		things = []
-		query = "SELECT * FROM nouns WHERE subtype='place' AND prep!=''"
-		cursor.execute(query)
-		for word in cursor:
-			things.append(word)
-		blah = random.choice(things)
-		word2 = blah[7] + " " + blah[1] 
-	if word == 'species':
-		things = []
-		query = "SELECT * FROM nouns WHERE subtype='species'"
-		cursor.execute(query)
-		for word in cursor:
-			things.append(word)
-		word2 = random.choice(things)[1]
-	if word == 'time':
-		word2 = random.choice(time)[1]
-	if word == 'event':
-		things = []
-		query = "SELECT * FROM nouns WHERE subtype='event'"
-		cursor.execute(query)
-		for word in cursor:
-			things.append(word)
-		word2 = random.choice(things)[1]
-	if word == 'pl_thing':
-		things = []
-		query = "SELECT * FROM nouns WHERE subtype='thing' AND number='plural'"
-		cursor.execute(query)
-		for word in cursor:
-			things.append(word)
-		word2 = random.choice(things)[1]
-	if word == 'verb':
-		things = []
-		query = "SELECT * FROM verbs WHERE trans='no'"
-		cursor.execute(query)
-		for word in cursor:
-			things.append(word)
-		word2 = random.choice(things)[1]
-	if word == 'adj':
-		word2 = random.choice(adjectives)[1]
-	return word2
+def replacer(matchobj):
+    return random.choice(lexicon[matchobj.group(1)])
 
-def get_line(cursor):
+def get_line():
 	randnum = random.randint(0,2)
 	if randnum == 0:
-		quote = get_quote()
-		return parse(quote,cursor)
+		return parse(random.choice(quotes))
 	else:
-		non_quote = get_non_quote()
-		return parse(non_quote,cursor)
+		return parse(random.choice(non_quotes))
 
-def get_quote():
-	global quotes
-	return random.choice(quotes)
+def make_lexicon():
+    """Makes a dictionary of lists with the info replacer() cares about,
+    using the lists from the initial database queries.
+    """
+    global lexicon
 
-def get_non_quote():
-	global non_quotes
-	return random.choice(non_quotes)
+    for x in "time", "adj", "adv", "person", "event", "place", "p_place", "t_verb", "verb", "species", "pl_species", "thing", "pl_thing":
+        lexicon[x] = []
+    for x in nouns:
+    	if "person" in x[3]:
+    		lexicon["person"].append(x[1])
+    	elif "event" in x[3]:
+    		lexicon["event"].append(x[1])
+    	elif "place" in x[3]:
+    		lexicon["place"].append(x[1])
+    		lexicon["p_place"].append(x[7] + " " + x[1])
+    	elif "thing" in x[3]:
+    		if "singular" in x:
+    			lexicon["thing"].append(x[1])
+    		else: lexicon["pl_thing"].append(x[1])
+    	elif "species" in x[3]:
+    		if "singular" in x:
+    			lexicon["species"].append(x[1])
+    		else: lexicon["pl_species"].append(x[1])
+    for x in verbs:
+    	if "yes" in x[3]:
+    		lexicon["t_verb"].append(x[1])
+    	else:
+    		lexicon["verb"].append(x[1])
+    lexicon["time"] = [x[1] for x in time]
+    lexicon["adj"] = [x[1] for x in adjectives]
+    lexicon["adv"] = [x[1] for x in adverbs]
 
 def main():
-	width = 100
-	numSent = 8
-	cnx, cursor = connect()
-	fill_lists(cnx,cursor,'nouns')
-	fill_lists(cnx,cursor,'adverbs')
-	fill_lists(cnx,cursor,'verbs')
-	fill_lists(cnx,cursor,'adjectives')
-	fill_lists(cnx,cursor,'time')
-	text = ""
-	wrapper = textwrap.TextWrapper(fix_sentence_endings = True, width = width)
-	for i in range (0,numSent):
-		text += get_line(cursor) + "  "
-	print wrapper.fill(text)
-	cursor.close()
-	cnx.close()
+    width = 100
+    numSent = 8
+    cnx, cursor = connect()
+    fill_lists(cnx,cursor,'nouns')
+    fill_lists(cnx,cursor,'adverbs')
+    fill_lists(cnx,cursor,'verbs')
+    fill_lists(cnx,cursor,'adjectives')
+    fill_lists(cnx,cursor,'time')
+    text = ""
+    wrapper = textwrap.TextWrapper(fix_sentence_endings = False, width = width)
+    make_lexicon()
+    for i in range (0,numSent):
+    	text += get_line() + "  "
+    print wrapper.fill(text)
+    cursor.close()
+    cnx.close()
 
 main()
