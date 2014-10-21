@@ -1,0 +1,510 @@
+word,pos,sub-type,franchise,sub-franchise,number,prep
+The Age of Men,noun,event,Lord of the Rings,Lord of the Rings,singular,
+the War of the Last Alliance,noun,event,Lord of the Rings,Lord of the Rings,singular,
+the Siege of Osgiliath,noun,event,Lord of the Rings,Lord of the Rings,singular,
+the Battle of Isengard,noun,event,Lord of the Rings,Lord of the Rings,singular,
+the Destruction of Alderaan,noun,event,Star Wars,Star Wars Original Trilogy,singular,
+the Clone Wars,noun,event,Star Wars,Star Wars Original Trilogy,plural,
+the Battle of Yavin,noun,event,Star Wars,Star Wars Original Trilogy,singular,
+the Battle of Hoth,noun,event,Star Wars,Star Wars Original Trilogy,singular,
+the Battle of Endor,noun,event,Star Wars,Star Wars Original Trilogy,singular,
+Second Impact,noun,event,Neon Genesis Evangelion,Neon Genesis Evangelion,singular,
+the Battle of Helms Deep,noun,event ,Lord of the Rings,Lord of the Rings,singular,
+The War of the Ring,noun,event ,Lord of the Rings,Lord of the Rings,singular,
+Terra,noun,person,Final Fantasy,Final Fantasy VI,singular,
+Locke,noun,person,Final Fantasy,Final Fantasy VI,singular,
+Edgar,noun,person,Final Fantasy,Final Fantasy VI,singular,
+Sabin,noun,person,Final Fantasy,Final Fantasy VI,singular,
+Cyan,noun,person,Final Fantasy,Final Fantasy VI,singular,
+Shadow,noun,person,Final Fantasy,Final Fantasy VI,singular,
+Relm,noun,person,Final Fantasy,Final Fantasy VI,singular,
+Strago,noun,person,Final Fantasy,Final Fantasy VI,singular,
+Gau,noun,person,Final Fantasy,Final Fantasy VI,singular,
+Celes,noun,person,Final Fantasy,Final Fantasy VI,singular,
+Setzer,noun,person,Final Fantasy,Final Fantasy VI,singular,
+Mog,noun,person,Final Fantasy,Final Fantasy VI,singular,
+Gogo,noun,person,Final Fantasy,Final Fantasy VI,singular,
+Umaro,noun,person,Final Fantasy,Final Fantasy VI,singular,
+Cloud,noun,person,Final Fantasy,Final Fantasy VII,singular,
+Tifa,noun,person,Final Fantasy,Final Fantasy VII,singular,
+Barret,noun,person,Final Fantasy,Final Fantasy VII,singular,
+Aeris,noun,person,Final Fantasy,Final Fantasy VII,singular,
+Red XIII,noun,person,Final Fantasy,Final Fantasy VII,singular,
+Cait Sith,noun,person,Final Fantasy,Final Fantasy VII,singular,
+Cid,noun,person,Final Fantasy,Final Fantasy VII,singular,
+Yuffie,noun,person,Final Fantasy,Final Fantasy VII,singular,
+Vincent,noun,person,Final Fantasy,Final Fantasy VIII,singular,
+Squall,noun,person,Final Fantasy,Final Fantasy VIII,singular,
+Quistis,noun,person,Final Fantasy,Final Fantasy VIII,singular,
+Zell,noun,person,Final Fantasy,Final Fantasy VIII,singular,
+Selphie,noun,person,Final Fantasy,Final Fantasy VIII,singular,
+Rinoa,noun,person,Final Fantasy,Final Fantasy VIII,singular,
+Irvine,noun,person,Final Fantasy,Final Fantasy VIII,singular,
+Laguna,noun,person,Final Fantasy,Final Fantasy VIII,singular,
+Kiros,noun,person,Final Fantasy,Final Fantasy VIII,singular,
+Ward,noun,person,Final Fantasy,Final Fantasy VIII,singular,
+Edea,noun,person,Final Fantasy,Final Fantasy VIII,singular,
+Seifer,noun,person,Final Fantasy,Final Fantasy VIII,singular,
+Zidane,noun,person,Final Fantasy,Final Fantasy IX,singular,
+Vivi,noun,person,Final Fantasy,Final Fantasy IX,singular,
+Dagger,noun,person,Final Fantasy,Final Fantasy IX,singular,
+Steiner,noun,person,Final Fantasy,Final Fantasy IX,singular,
+Freya,noun,person,Final Fantasy,Final Fantasy IX,singular,
+Quina,noun,person,Final Fantasy,Final Fantasy IX,singular,
+Eiko,noun,person,Final Fantasy,Final Fantasy IX,singular,
+Amarant,noun,person,Final Fantasy,Final Fantasy IX,singular,
+Beatrix,noun,person,Final Fantasy,Final Fantasy IX,singular,
+Blank,noun,person,Final Fantasy,Final Fantasy IX,singular,
+Cinna,noun,person,Final Fantasy,Final Fantasy IX,singular,
+Marcus ,noun,person,Final Fantasy,Final Fantasy IX,singular,
+Tidus,noun,person,Final Fantasy,Final Fantasy X,singular,
+Yuna,noun,person,Final Fantasy,Final Fantasy X,singular,
+Auron,noun,person,Final Fantasy,Final Fantasy X,singular,
+Kimahri Ronso,noun,person,Final Fantasy,Final Fantasy X,singular,
+Wakka,noun,person,Final Fantasy,Final Fantasy X,singular,
+Lulu,noun,person,Final Fantasy,Final Fantasy X,singular,
+Rikku,noun,person,Final Fantasy,Final Fantasy X,singular,
+Seymour Guado,noun,person,Final Fantasy,Final Fantasy X,singular,
+Ramza,noun,person,Final Fantasy,Final Fantasy Tactics,singular,
+Boco,noun,person,Final Fantasy,Final Fantasy Tactics,singular,
+Mustadio,noun,person,Final Fantasy,Final Fantasy Tactics,singular,
+Agrias,noun,person,Final Fantasy,Final Fantasy Tactics,singular,
+Rapha,noun,person,Final Fantasy,Final Fantasy Tactics,singular,
+Marach,noun,person,Final Fantasy,Final Fantasy Tactics,singular,
+Count Cidolfus Orlandeau,noun,person,Final Fantasy,Final Fantasy Tactics,singular,
+Meliadoul,noun,person,Final Fantasy,Final Fantasy Tactics,singular,
+Ladd,noun,person,Final Fantasy,Final Fantasy Tactics,singular,
+Lavian,noun,person,Final Fantasy,Final Fantasy Tactics,singular,
+Alicia,noun,person,Final Fantasy,Final Fantasy Tactics,singular,
+Beowulf,noun,person,Final Fantasy,Final Fantasy Tactics,singular,
+Reis,noun,person,Final Fantasy,Final Fantasy Tactics,singular,
+Construct 8,noun,person,Final Fantasy,Final Fantasy Tactics,singular,
+Cloud,noun,person,Final Fantasy,Final Fantasy Tactics,singular,
+Byblos,noun,person,Final Fantasy,Final Fantasy Tactics,singular,
+Luso,noun,person,Final Fantasy,Final Fantasy Tactics,singular,
+Balthier,noun,person,Final Fantasy,Final Fantasy Tactics,singular,
+Kefka,noun,person,Final Fantasy,Final Fantasy VI,singular,
+Behemoth King,noun,person,Final Fantasy,Final Fantasy VI,singular,
+Omega Weapon,noun,person,Final Fantasy,Final Fantasy VI,singular,
+Phantom Train,noun,person,Final Fantasy,Final Fantasy VI,singular,
+Typhon,noun,person,Final Fantasy,Final Fantasy VI,singular,
+Ultros,noun,person,Final Fantasy,Final Fantasy VI,singular,
+Jenova,noun,person,Final Fantasy,Final Fantasy VII,singular,
+Sephiroth,noun,person,Final Fantasy,Final Fantasy VII,singular,
+Diamond Weapon,noun,person,Final Fantasy,Final Fantasy VII,singular,
+Hojo,noun,person,Final Fantasy,Final Fantasy VII,singular,
+Elena,noun,person,Final Fantasy,Final Fantasy VII,singular,
+Reno,noun,person,Final Fantasy,Final Fantasy VII,singular,
+Rude,noun,person,Final Fantasy,Final Fantasy VII,singular,
+Rufus,noun,person,Final Fantasy,Final Fantasy VII,singular,
+Ultimecia,noun,person,Final Fantasy,Final Fantasy VIII,singular,
+X-ATM092,noun,person,Final Fantasy,Final Fantasy VIII,singular,
+Fujin,noun,person,Final Fantasy,Final Fantasy VIII,singular,
+Raijin,noun,person,Final Fantasy,Final Fantasy VIII,singular,
+NORG,noun,person,Final Fantasy,Final Fantasy VIII,singular,
+Eden,noun,person,Final Fantasy,Final Fantasy VIII,singular,
+Diablos,noun,person,Final Fantasy,Final Fantasy VIII,singular,
+Gandalf,noun,person,Lord of the Rings,The Hobbit,singular,
+Frodo,noun,person,Lord of the Rings,Lord of the Rings,singular,
+Sam,noun,person,Lord of the Rings,Lord of the Rings,singular,
+Gollum,noun,person,Lord of the Rings,The Hobbit,singular,
+Merry,noun,person,Lord of the Rings,Lord of the Rings,singular,
+Pippin,noun,person,Lord of the Rings,Lord of the Rings,singular,
+Boromir,noun,person,Lord of the Rings,Lord of the Rings,singular,
+Faramir,noun,person,Lord of the Rings,Lord of the Rings,singular,
+Bilbo,noun,person,Lord of the Rings,The Hobbit,singular,
+Saruman,noun,person,Lord of the Rings,Lord of the Rings,singular,
+Sauron,noun,person,Lord of the Rings,Lord of the Rings,singular,
+Treebeard,noun,person,Lord of the Rings,Lord of the Rings,singular,
+Legolas,noun,person,Lord of the Rings,Lord of the Rings,singular,
+Aragorn,noun,person,Lord of the Rings,Lord of the Rings,singular,
+Gimli,noun,person,Lord of the Rings,Lord of the Rings,singular,
+The Witch-King,noun,person,Lord of the Rings,Lord of the Rings,singular,
+Theoden King,noun,person,Lord of the Rings,Lord of the Rings,singular,
+Smaug,noun,person,Lord of the Rings,The Hobbit,singular,
+Captain Kirk,noun,person,Star Trek,Star Trek: The Original Series,singular,
+Spock,noun,person,Star Trek,Star Trek: The Original Series,singular,
+Dr. McCoy,noun,person,Star Trek,Star Trek: The Original Series,singular,
+Scotty,noun,person,Star Trek,Star Trek: The Original Series,singular,
+Lt. Uhura,noun,person,Star Trek,Star Trek: The Original Series,singular,
+Lt. Sulu,noun,person,Star Trek,Star Trek: The Original Series,singular,
+Ensign Chekov,noun,person,Star Trek,Star Trek: The Original Series,singular,
+Nurse Chapel,noun,person,Star Trek,Star Trek: The Original Series,singular,
+Yeoman Rand,noun,person,Star Trek,Star Trek: The Original Series,singular,
+Captain Picard,noun,person,Star Trek,Star Trek: The Next Generation,singular,
+Commander Riker,noun,person,Star Trek,Star Trek: The Next Generation,singular,
+Geordi La Forge,noun,person,Star Trek,Star Trek: The Next Generation,singular,
+Tasha Yar,noun,person,Star Trek,Star Trek: The Next Generation,singular,
+Worf,noun,person,Star Trek,Star Trek: The Next Generation,singular,
+Dr. Crusher,noun,person,Star Trek,Star Trek: The Next Generation,singular,
+Wesley Crusher,noun,person,Star Trek,Star Trek: The Next Generation,singular,
+Counselor Troi,noun,person,Star Trek,Star Trek: The Next Generation,singular,
+Data,noun,person,Star Trek,Star Trek: The Next Generation,singular,
+Q,noun,person,Star Trek,Star Trek: The Next Generation,singular,
+Guinan,noun,person,Star Trek,Star Trek: The Next Generation,singular,
+Captain Sisko,noun,person,Star Trek,Star Trek: Deep Space Nine,singular,
+Kira Nerys,noun,person,Star Trek,Star Trek: Deep Space Nine,singular,
+Odo,noun,person,Star Trek,Star Trek: Deep Space Nine,singular,
+Dr. Bashir,noun,person,Star Trek,Star Trek: Deep Space Nine,singular,
+Jadzia Dax,noun,person,Star Trek,Star Trek: Deep Space Nine,singular,
+Ezri Dax,noun,person,Star Trek,Star Trek: Deep Space Nine,singular,
+Worf,noun,person,Star Trek,Star Trek: Deep Space Nine,singular,
+Chief O'Brien,noun,person,Star Trek,Star Trek: Deep Space Nine,singular,
+Jake Sisko,noun,person,Star Trek,Star Trek: Deep Space Nine,singular,
+Quark,noun,person,Star Trek,Star Trek: Deep Space Nine,singular,
+Rom,noun,person,Star Trek,Star Trek: Deep Space Nine,singular,
+Nog,noun,person,Star Trek,Star Trek: Deep Space Nine,singular,
+Garak,noun,person,Star Trek,Star Trek: Deep Space Nine,singular,
+Weyoun,noun,person,Star Trek,Star Trek: Deep Space Nine,singular,
+Captain Janeway,noun,person,Star Trek,Star Trek: Voyager,singular,
+Tuvok,noun,person,Star Trek,Star Trek: Voyager,singular,
+Tom Paris,noun,person,Star Trek,Star Trek: Voyager,singular,
+B'Elanna Torres,noun,person,Star Trek,Star Trek: Voyager,singular,
+Harry Kim,noun,person,Star Trek,Star Trek: Voyager,singular,
+The Doctor,noun,person,Star Trek,Star Trek: Voyager,singular,
+Neelix,noun,person,Star Trek,Star Trek: Voyager,singular,
+Kes,noun,person,Star Trek,Star Trek: Voyager,singular,
+Seven of Nine,noun,person,Star Trek,Star Trek: Voyager,singular,
+Q,noun,person,Star Trek,Star Trek: Voyager,singular,
+Captain Archer,noun,person,Star Trek,Star Trek: Enterprise,singular,
+T'Pol,noun,person,Star Trek,Star Trek: Enterprise,singular,
+Trip Tucker,noun,person,Star Trek,Star Trek: Enterprise,singular,
+Malcolm Reed,noun,person,Star Trek,Star Trek: Enterprise,singular,
+Hoshi Sato,noun,person,Star Trek,Star Trek: Enterprise,singular,
+Travis Mayweather,noun,person,Star Trek,Star Trek: Enterprise,singular,
+Dr. Phlox,noun,person,Star Trek,Star Trek: Enterprise,singular,
+Khan,noun,person,Star Trek,Star Trek II: The Wrath of Khan,singular,
+Luke Skywalker,noun,person,Star Wars,Star Wars Original Trilogy,singular,
+Princess Leia,noun,person,Star Wars,Star Wars Original Trilogy,singular,
+R2-D2,noun,person,Star Wars,Star Wars Original Trilogy,singular,
+C-3PO,noun,person,Star Wars,Star Wars Original Trilogy,singular,
+Darth Vader,noun,person,Star Wars,Star Wars Original Trilogy,singular,
+Obi-Wan Kenobi,noun,person,Star Wars,Star Wars Original Trilogy,singular,
+Han Solo,noun,person,Star Wars,Star Wars Original Trilogy,singular,
+Chewbacca,noun,person,Star Wars,Star Wars Original Trilogy,singular,
+Jabba the Hutt,noun,person,Star Wars,Star Wars Original Trilogy,singular,
+Emperor Palpatine,noun,person,Star Wars,Star Wars Original Trilogy,singular,
+Yoda,noun,person,Star Wars,Star Wars Original Trilogy,singular,
+Lando Calrissian,noun,person,Star Wars,Star Wars Original Trilogy,singular,
+Grand Moff Tarkin,noun,person,Star Wars,Star Wars Original Trilogy,singular,
+Admiral Ackbar,noun,person,Star Wars,Star Wars Original Trilogy,singular,
+Boba Fett,noun,person,Star Wars,Star Wars Original Trilogy,singular,
+Wedge Antilles,noun,person,Star Wars,Star Wars Original Trilogy,singular,
+Mon Mothma,noun,person,Star Wars,Star Wars Original Trilogy,singular,
+Greedo,noun,person,Star Wars,Star Wars Original Trilogy,singular,
+Harry Potter,noun,person,Harry Potter,Harry Potter and the Philosopher's Stone,singular,
+Dumbledore,noun,person,Harry Potter,Harry Potter and the Philosopher's Stone,singular,
+Hermione Granger,noun,person,Harry Potter,Harry Potter and the Philosopher's Stone,singular,
+Ron Weasley,noun,person,Harry Potter,Harry Potter and the Philosopher's Stone,singular,
+Professor Snape,noun,person,Harry Potter,Harry Potter and the Philosopher's Stone,singular,
+Lord Voldemort,noun,person,Harry Potter,Harry Potter and the Philosopher's Stone,singular,
+Sirius Black,noun,person,Harry Potter,Harry Potter and the Prisoner of Azkaban,singular,
+Draco Malfoy,noun,person,Harry Potter,Harry Potter and the Philosopher's Stone,singular,
+Professor McGonagall,noun,person,Harry Potter,Harry Potter and the Philosopher's Stone,singular,
+Ginny Weasley,noun,person,Harry Potter,Harry Potter and the Philosopher's Stone,singular,
+Fred Weasley,noun,person,Harry Potter,Harry Potter and the Philosopher's Stone,singular,
+George Weasley,noun,person,Harry Potter,Harry Potter and the Philosopher's Stone,singular,
+Dobby,noun,person,Harry Potter,Harry Potter and the Chamber of Secrets,singular,
+Hagrid,noun,person,Harry Potter,Harry Potter and the Philosopher's Stone,singular,
+Shinji Ikari,noun,person,Neon Genesis Evangelion,Neon Genesis Evangelion,singular,
+Asuka Langley Soryuu,noun,person,Neon Genesis Evangelion,Neon Genesis Evangelion,singular,
+Toji Suzuhara,noun,person,Neon Genesis Evangelion,Neon Genesis Evangelion,singular,
+Kaworu Nagisa,noun,person,Neon Genesis Evangelion,Neon Genesis Evangelion,singular,
+Rei Ayanami,noun,person,Neon Genesis Evangelion,Neon Genesis Evangelion,singular,
+Gendo Ikari,noun,person,Neon Genesis Evangelion,Neon Genesis Evangelion,singular,
+Rita Repulsa,noun,person,Power Rangers,Power Rangers,singular,
+Godzilla,noun,person,Godzilla,GODZILLAAAA,singular,
+Duncan's Cabin,noun,place,Final Fantasy,Final Fantasy VI,singular,in
+Figaro Castle,noun,place,Final Fantasy,Final Fantasy VI,singular,in
+Lethe River,noun,place,Final Fantasy,Final Fantasy VI,singular,on
+Mt. Kolts,noun,place,Final Fantasy,Final Fantasy VI,singular,on
+Narshe,noun,place,Final Fantasy,Final Fantasy VI,singular,in
+Narshe Mines,noun,place,Final Fantasy,Final Fantasy VI,singular,in
+Sabre Mountains,noun,place,Final Fantasy,Final Fantasy VI,singular,in
+South Figaro,noun,place,Final Fantasy,Final Fantasy VI,singular,in
+South Figaro Cave,noun,place,Final Fantasy,Final Fantasy VI,singular,in
+Yeti's Cave ,noun,place,Final Fantasy,Final Fantasy VI,singular,in
+Baren Falls,noun,place,Final Fantasy,Final Fantasy VI,singular,in
+Bomb Forest,noun,place,Final Fantasy,Final Fantasy VI,singular,in
+Cave on the Veldt,noun,place,Final Fantasy,Final Fantasy VI,singular,in
+Crescent Mountain Cave,noun,place,Final Fantasy,Final Fantasy VI,singular,in
+Doma Castle,noun,place,Final Fantasy,Final Fantasy VI,singular,in
+Gau's Father's House,noun,place,Final Fantasy,Final Fantasy VI,singular,in
+Imperial Camp,noun,place,Final Fantasy,Final Fantasy VI,singular,in
+Mobliz,noun,place,Final Fantasy,Final Fantasy VI,singular,at
+Nikeah,noun,place,Final Fantasy,Final Fantasy VI,singular,at
+Serpent Trench,noun,place,Final Fantasy,Final Fantasy VI,singular,in
+the Veldt,noun,place,Final Fantasy,Final Fantasy VI,singular,on
+Eorzea,noun,place,Final Fantasy,Final Fantasy XIV,singular,on
+Kohlingen,noun,place,Final Fantasy,Final Fantasy VI,singular,at
+Jidoor,noun,place,Final Fantasy,Final Fantasy VI,singular,at
+Mt. Zozo,noun,place,Final Fantasy,Final Fantasy VI,singular,on
+the Opera House,noun,place,Final Fantasy,Final Fantasy VI,singular,at
+Owzer's Mansion,noun,place,Final Fantasy,Final Fantasy VI,singular,at
+Zozo ,noun,place,Final Fantasy,Final Fantasy VI,singular,at
+Albrook,noun,place,Final Fantasy,Final Fantasy VI,singular,at
+Maranda,noun,place,Final Fantasy,Final Fantasy VI,singular,at
+Tzen,noun,place,Final Fantasy,Final Fantasy VI,singular,at
+Vector ,noun,place,Final Fantasy,Final Fantasy VI,singular,at
+Ebot's Rock,noun,place,Final Fantasy,Final Fantasy VI,singular,at
+the Esper Caves,noun,place,Final Fantasy,Final Fantasy VI,singular,in
+Thamasa,noun,place,Final Fantasy,Final Fantasy VI,singular,at
+Sector 1 Reactor,noun,place,Final Fantasy,Final Fantasy VII,singular,at
+7th Heaven,noun,place,Final Fantasy,Final Fantasy VII,singular,at
+the Train Graveyard,noun,place,Final Fantasy,Final Fantasy VII,singular,at
+Sector 5 Reactor,noun,place,Final Fantasy,Final Fantasy VII,singular,at
+Sector 5 Church,noun,place,Final Fantasy,Final Fantasy VII,singular,at
+Wall Market,noun,place,Final Fantasy,Final Fantasy VII,singular,at
+Honey Bee Inn,noun,place,Final Fantasy,Final Fantasy VII,singular,at
+Shinra Headquarters,noun,place,Final Fantasy,Final Fantasy VII,singular,at
+Midgar Highway,noun,place,Final Fantasy,Final Fantasy VII,singular,on
+Midgar,noun,place,Final Fantasy,Final Fantasy VII,singular,at
+Kalm,noun,place,Final Fantasy,Final Fantasy VII,singular,at
+the Mythril Mine,noun,place,Final Fantasy,Final Fantasy VII,singular,in
+Fort Condor,noun,place,Final Fantasy,Final Fantasy VII,singular,at
+Junon,noun,place,Final Fantasy,Final Fantasy VII,singular,at
+the Junon Underwater Reactor,noun,place,Final Fantasy,Final Fantasy VII,singular,at
+Costa del Sol,noun,place,Final Fantasy,Final Fantasy VII,singular,in
+Mt. Corel,noun,place,Final Fantasy,Final Fantasy VII,singular,on
+North Corel,noun,place,Final Fantasy,Final Fantasy VII,singular,in
+the Gold Saucer,noun,place,Final Fantasy,Final Fantasy VII,singular,at
+Corel Prison,noun,place,Final Fantasy,Final Fantasy VII,singular,in
+Gongaga,noun,place,Final Fantasy,Final Fantasy VII,singular,at
+Cosmo Canyon,noun,place,Final Fantasy,Final Fantasy VII,singular,in
+the Cave of the Gi,noun,place,Final Fantasy,Final Fantasy VII,singular,in
+Nibelheim,noun,place,Final Fantasy,Final Fantasy VII,singular,at
+Shinra Mansion,noun,place,Final Fantasy,Final Fantasy VII,singular,at
+Mt. Nibel,noun,place,Final Fantasy,Final Fantasy VII,singular,on
+Rocket Town,noun,place,Final Fantasy,Final Fantasy VII,singular,at
+the Sleeping Forest,noun,place,Final Fantasy,Final Fantasy VII,singular,in
+Corel Valley,noun,place,Final Fantasy,Final Fantasy VII,singular,in
+the Forgotten Capital,noun,place,Final Fantasy,Final Fantasy VII,singular,at
+Corel Valley Cave,noun,place,Final Fantasy,Final Fantasy VII,singular,in
+Icicle Inn,noun,place,Final Fantasy,Final Fantasy VII,singular,at
+the Great Glacier,noun,place,Final Fantasy,Final Fantasy VII,singular,on
+Gaea's Cliff,noun,place,Final Fantasy,Final Fantasy VII,singular,at
+North Crater,noun,place,Final Fantasy,Final Fantasy VII,singular,in
+the Whirlwind Maze,noun,place,Final Fantasy,Final Fantasy VII,singular,in
+Wutai,noun,place,Final Fantasy,Final Fantasy VII,singular,in
+Da-chao Statue,noun,place,Final Fantasy,Final Fantasy VII,singular,at
+the Temple of the Ancients,noun,place,Final Fantasy,Final Fantasy VII,singular,at
+Mideel,noun,place,Final Fantasy,Final Fantasy VII,singular,at
+Cloud's Subconscious,noun,place,Final Fantasy,Final Fantasy VII,singular,in
+the Materia Caves,noun,place,Final Fantasy,Final Fantasy VII,singular,in
+Goblin Island,noun,place,Final Fantasy,Final Fantasy VII,singular,on
+Cactus Island,noun,place,Final Fantasy,Final Fantasy VII,singular,on
+Gelnika,noun,place,Final Fantasy,Final Fantasy VII,singular,at
+Balamb Garden,noun,place,Final Fantasy,Final Fantasy VIII,singular,at
+Dollet,noun,place,Final Fantasy,Final Fantasy VIII,singular,in
+Timber,noun,place,Final Fantasy,Final Fantasy VIII,singular,in
+Centra Excavation Site,noun,place,Final Fantasy,Final Fantasy VIII,singular,at
+Galbadia Garden ,noun,place,Final Fantasy,Final Fantasy VIII,singular,at
+Tomb of the Unknown King,noun,place,Final Fantasy,Final Fantasy VIII,singular,at
+Deling City,noun,place,Final Fantasy,Final Fantasy VIII,singular,at
+Winhill,noun,place,Final Fantasy,Final Fantasy VIII,singular,at
+D-District Prison,noun,place,Final Fantasy,Final Fantasy VIII,singular,at
+the Missile Base,noun,place,Final Fantasy,Final Fantasy VIII,singular,at
+Fisherman's Horizon,noun,place,Final Fantasy,Final Fantasy VIII,singular,on
+Centra Ruins,noun,place,Final Fantasy,Final Fantasy VIII,singular,at
+Trabia Garden,noun,place,Final Fantasy,Final Fantasy VIII,singular,at
+Edea's Orphanage,noun,place,Final Fantasy,Final Fantasy VIII,singular,at
+Great Salt Lake,noun,place,Final Fantasy,Final Fantasy VIII,singular,at
+Esthar ,noun,place,Final Fantasy,Final Fantasy VIII,singular,in
+the Lunar Base,noun,place,Final Fantasy,Final Fantasy VIII,singular,at
+the Sorceress Memorial,noun,place,Final Fantasy,Final Fantasy VIII,singular,at
+Deep Sea Research Center,noun,place,Final Fantasy,Final Fantasy VIII,singular,at
+Shumi Village,noun,place,Final Fantasy,Final Fantasy VIII,singular,at
+Lunatic Pandora,noun,place,Final Fantasy,Final Fantasy VIII,singular,on
+Ultimecia Castle,noun,place,Final Fantasy,Final Fantasy VIII,singular,at
+the Vienne Mountains,noun,place,Final Fantasy,Final Fantasy VIII,singular,at
+the Lunar Gate,noun,place,Final Fantasy,Final Fantasy VIII,singular,at
+Tears' Point,noun,place,Final Fantasy,Final Fantasy VIII,singular,at
+Obel Lake,noun,place,Final Fantasy,Final Fantasy VIII,singular,at
+the Island Closest to Heaven,noun,place,Final Fantasy,Final Fantasy VIII,singular,on
+the Island Closest to Hell,noun,place,Final Fantasy,Final Fantasy VIII,singular,on
+Kakariko Village,noun,place,Legend of Zelda,Legend of Zelda: A Link to the Past,singular,in
+Barad-dur,noun,place,Lord of the Rings,Lord of the Rings,singular,at
+Gondor,noun,place,Lord of the Rings,Lord of the Rings,singular,in
+Rohan,noun,place,Lord of the Rings,Lord of the Rings,singular,in
+The Shire,noun,place,Lord of the Rings,Lord of the Rings,singular,in
+Mount Doom,noun,place,Lord of the Rings,Lord of the Rings,singular,on
+The Lonely Mountain,noun,place,Lord of the Rings,Lord of the Rings,singular,at
+The Mines of Moria,noun,place,Lord of the Rings,Lord of the Rings,singular,in
+Rivendell,noun,place,Lord of the Rings,Lord of the Rings,singular,in
+Hobbiton,noun,place,Lord of the Rings,Lord of the Rings,singular,in
+Mordor,noun,place,Lord of the Rings,Lord of the Rings,singular,in
+Westfall,noun,place,Lord of the Rings,Lord of the Rings,singular,in
+Mirkwood,noun,place,Lord of the Rings,Lord of the Rings,singular,in
+Lothlorien,noun,place,Lord of the Rings,Lord of the Rings,singular,in
+Minhiriath,noun,place,Lord of the Rings,Lord of the Rings,singular,in
+Bree,noun,place,Lord of the Rings,Lord of the Rings,singular,in
+Erebor,noun,place,Lord of the Rings,Lord of the Rings,singular,in
+Fangorn Forest,noun,place,Lord of the Rings,Lord of the Rings,singular,in
+Helm's Deep,noun,place,Lord of the Rings,Lord of the Rings,singular,at
+the Dead Marshes,noun,place,Lord of the Rings,Lord of the Rings,singular,in
+Minas Morgul,noun,place,Lord of the Rings,Lord of the Rings,singular,in
+Minas Tirith,noun,place,Lord of the Rings,Lord of the Rings,singular,in
+Mirkwood,noun,place,Lord of the Rings,Lord of the Rings,singular,at
+Tatooine,noun,place,Star Wars,Star Wars Original Trilogy,singular,on
+Alderaan,noun,place,Star Wars,Star Wars Original Trilogy,singular,on
+Yavin IV,noun,place,Star Wars,Star Wars Original Trilogy,singular,on
+the Death Star,noun,place,Star Wars,Star Wars Original Trilogy,singular,on
+Mos Eisley,noun,place,Star Wars,Star Wars Original Trilogy,singular,in
+Hoth,noun,place,Star Wars,Star Wars Original Trilogy,singular,on
+Kashyyyk,noun,place,Star Wars,Star Wars Original Trilogy,singular,on
+Dagobah,noun,place,Star Wars,Star Wars Original Trilogy,singular,on
+Bespin Cloud City,noun,place,Star Wars,Star Wars Original Trilogy,singular,in
+the second Death Star,noun,place,Star Wars,Star Wars Original Trilogy,singular,on
+the Executor,noun,place,Star Wars,Star Wars Original Trilogy,singular,on
+Coruscant,noun,place,Star Wars,Star Wars Original Trilogy,singular,on
+Jabba's Palace,noun,place,Star Wars,Star Wars Original Trilogy,singular,in
+Endor,noun,place,Star Wars,Star Wars Original Trilogy,singular,on
+the Millenium Falcon,noun,place,Star Wars,Star Wars Original Trilogy,singular,on
+Hogwarts School of Witchcraft and Wizardry,noun,place,Harry Potter,Harry Potter and the Philosopher's Stone,singular,at
+Diagon Alley,noun,place,Harry Potter,Harry Potter and the Philosopher's Stone,singular,at
+The Leaky Cauldron,noun,place,Harry Potter,Harry Potter and the Philosopher's Stone,singular,at
+Vulcan,noun,place,Star Trek,Star Trek The Original Series,singular,on
+Deep Space Nine,noun,place,Star Trek,Star Trek Deep Space Nine,singular,on
+the Enterprise,noun,place,Star Trek,Star Trek The Original Series,singular,on
+Voyager,noun,place,Star Trek,Star Trek Voyager,singular,on
+the Delta Quadrant,noun,place,Star Trek,Star Trek The Next Generation,singular,in
+Bajor,noun,place,Star Trek,Star Trek The Next Generation,singular,on
+the Enterprise-D,noun,place,Star Trek,Star Trek The Next Generation,singular,on
+Qo'nos,noun,place,Star Trek,Star Trek The Original Series,singular,on
+Risa,noun,place,Star Trek,Star Trek The Next Generation,singular,on
+Romulus,noun,place,Star Trek,Star Trek The Original Series,singular,on
+Space Battleship Yamato,noun,place,Space Battleship Yamato,Space Battleship Yamato,singular,on
+Ewok,noun,species,Star Wars,Star Wars Original Trilogy,singular,
+Ewoks,noun,species,Star Wars,Star Wars Original Trilogy,plural,
+Wookie,noun,species,Star Wars,Star Wars Original Trilogy,singular,
+Wookies,noun,species,Star Wars,Star Wars Original Trilogy,plural,
+Bothan,noun,species,Star Wars,Star Wars Original Trilogy,singular,
+Bothans,noun,species,Star Wars,Star Wars Original Trilogy,plural,
+Mon Calamari,noun,species,Star Wars,Star Wars Original Trilogy,singular,
+Mon Calamari,noun,species,Star Wars,Star Wars Original Trilogy,plural,
+Twi'lek,noun,species,Star Wars,Star Wars Original Trilogy,singular,
+Twi'leks,noun,species,Star Wars,Star Wars Original Trilogy,plural,
+Hutt,noun,species,Star Wars,Star Wars Original Trilogy,singular,
+Hutts,noun,species,Star Wars,Star Wars Original Trilogy,plural,
+Rodian,noun,species,Star Wars,Star Wars Original Trilogy,singular,
+Rodians,noun,species,Star Wars,Star Wars Original Trilogy,plural,
+Jedi,noun,species,Star Wars,Star Wars Original Trilogy,singular,
+Jedis,noun,species,Star Wars,Star Wars Original Trilogy,plural,
+womp rat,noun,species,Star Wars,Star Wars Original Trilogy,singular,
+womp rats,noun,species,Star Wars,Star Wars Original Trilogy,plural,
+Stormtrooper,noun,species,Star Wars,Star Wars Original Trilogy,singular,
+Stormtroopers,noun,species,Star Wars,Star Wars Original Trilogy,plural,
+Vulcan,noun,species,Star Trek,Star Trek: The Original Series,singular,
+Vulcans,noun,species,Star Trek,Star Trek: The Original Series,plural,
+Klingon,noun,species,Star Trek,Star Trek: The Original Series,singular,
+Klingons,noun,species,Star Trek,Star Trek: The Original Series,plural,
+Romulan,noun,species,Star Trek,Star Trek: The Original Series,singular,
+Romulans,noun,species,Star Trek,Star Trek: The Original Series,plural,
+Andorian,noun,species,Star Trek,Star Trek: The Original Series,singular,
+Andorians,noun,species,Star Trek,Star Trek: The Original Series,plural,
+Cardassian,noun,species,Star Trek,Star Trek: The Next Generation,singular,
+Cardassians,noun,species,Star Trek,Star Trek: The Next Generation,plural,
+Ferengi,noun,species,Star Trek,Star Trek: The Next Generation,singular,
+Ferengi,noun,species,Star Trek,Star Trek: The Next Generation,plural,
+Bajoran,noun,species,Star Trek,Star Trek: The Next Generation,singular,
+Bajorans,noun,species,Star Trek,Star Trek: The Next Generation,plural,
+Tribble,noun,species,Star Trek,Star Trek: The Original Series,singular,
+Tribbles,noun,species,Star Trek,Star Trek: The Original Series,plural,
+Borg,noun,species,Star Trek,Star Trek: The Next Generation,singular,
+Borg Collective,noun,species,Star Trek,Star Trek: The Next Generation,plural,
+Species 8472,noun,species,Star Trek,Star Trek: Voyager,plural,
+Rancor,noun,species,Star Wars,Star Wars Original Trilogy,singular,
+Trill,noun,species,Star Trek,Star Trek: The Next Generation,singular,
+Trills,noun,species,Star Trek,Star Trek: The Next Generation,plural,
+Betazoid,noun,species,Star Trek,Star Trek: The Next Generation,singular,
+Betazoids,noun,species,Star Trek,Star Trek: The Next Generation,plural,
+Angel,noun,species,Neon Genesis Evangelion,Neon Genesis Evangelion,singular,
+Angels,noun,species,Neon Genesis Evangelion,Neon Genesis Evangelion,plural,
+EVA,noun,species,Neon Genesis Evangelion,Neon Genesis Evangelion,singular,
+EVAs,noun,species,Neon Genesis Evangelion,Neon Genesis Evangelion,plural,
+Ifrit,noun,species,Final Fantasy,Final Fantasy VII,singular,
+Shiva,noun,species,Final Fantasy,Final Fantasy VII,singular,
+Humbaba,noun,species,Final Fantasy,Final Fantasy VI,singular,
+orc,noun,species,Lord of the Rings,Lord of the Rings,singular,
+orcs,noun,species,Lord of the Rings,Lord of the Rings,plural,
+goblin,noun,species,Lord of the Rings,The Hobbit,singular,
+goblins,noun,species,Lord of the Rings,The Hobbit,plural,
+Hobbit,noun,species,Lord of the Rings,The Hobbit,singular,
+Hobbits,noun,species,Lord of the Rings,The Hobbit,plural,
+elf,noun,species,Lord of the Rings,The Hobbit,singular,
+elves,noun,species,Lord of the Rings,The Hobbit,plural,
+dwarf,noun,species,Lord of the Rings,The Hobbit,singular,
+dwarves,noun,species,Lord of the Rings,The Hobbit,plural,
+Numenorean,noun,species,Lord of the Rings,Lord of the Rings,singular,
+Numenoreans,noun,species,Lord of the Rings,Lord of the Rings,plural,
+wizard,noun,species,Lord of the Rings,The Hobbit,singular,
+wizards,noun,species,Lord of the Rings,The Hobbit,plural,
+eagle,noun,species,Lord of the Rings,The Hobbit,singular,
+eagles,noun,species,Lord of the Rings,The Hobbit,plural,
+Ent,noun,species,Lord of the Rings,Lord of the Rings,singular,
+Ents,noun,species,Lord of the Rings,Lord of the Rings,plural,
+troll,noun,species,Lord of the Rings,The Hobbit,singular,
+trolls,noun,species,Lord of the Rings,The Hobbit,plural,
+hi-potion,noun,thing,Final Fantasy,Final Fantasy VI,singular,
+Magitek armor,noun,thing,Final Fantasy,Final Fantasy XIV,singular,
+Masamune,noun,thing,Final Fantasy,Final Fantasy VII,singular,
+Gungnir,noun,thing,Final Fantasy,Final Fantasy VII,singular,
+Megalixir,noun,thing,Final Fantasy,Final Fantasy VII,singular,
+Excalibur,noun,thing,Final Fantasy,Final Fantasy VII,singular,
+Horcrux,noun,thing,Harry Potter,Harry Potter and the Half-Blood Prince,singular,
+Ring of Power,noun,thing,Lord of the Rings,The Hobbit,singular,
+One Ring,noun,thing,Lord of the Rings,The Hobbit,singular,
+axe,noun,thing,Lord of the Rings,Lord of the Rings,singular,
+sword,noun,thing,Lord of the Rings,The Hobbit,singular,
+mitochondria,noun,thing,Parasite Eve,Parasite Eve,plural,
+tricorder,noun,thing,Star Trek,Star Trek: The Original Series,singular,
+lightsaber,noun,thing,Star Wars,Star Wars Original Trilogy,singular,
+sandcrawler,noun,thing,Star Wars,Star Wars Original Trilogy,singular,
+star destroyer,noun,thing,Star Wars,Star Wars Original Trilogy,singular,
+X-Wing,noun,thing,Star Wars,Star Wars Original Trilogy,singular,
+A-Wing,noun,thing,Star Wars,Star Wars Original Trilogy,singular,
+Y-Wing,noun,thing,Star Wars,Star Wars Original Trilogy,singular,
+B-Wing,noun,thing,Star Wars,Star Wars Original Trilogy,singular,
+Imperial shuttle,noun,thing,Star Wars,Star Wars Original Trilogy,singular,
+landspeeder,noun,thing,Star Wars,Star Wars Original Trilogy,singular,
+blaster pistol,noun,thing,Star Wars,Star Wars Original Trilogy,singular,
+hydrospanner,noun,thing,Star Wars,Star Wars Original Trilogy,singular,
+hyperdrive,noun,thing,Star Wars,Star Wars Original Trilogy,singular,
+blaster rifle,noun,thing,Star Wars,Star Wars Original Trilogy,singular,
+TIE Fighter,noun,thing,Star Wars,Star Wars Original Trilogy,singular,
+Philosopher's Stone,noun,thing,Harry Potter,Harry Potter and the Philosopher's Stone,singular,
+Cloak of Invisibility,noun,thing,Harry Potter,Harry Potter and the Philosopher's Stone,singular,
+Marauder's Map,noun,thing,Harry Potter,Harry Potter and the Prisoner of Azkaban,singular,
+Quidditch ball,noun,thing,Harry Potter,Harry Potter and the Philosopher's Stone,singular,
+wand,noun,thing,Harry Potter,Harry Potter and the Philosopher's Stone,singular,
+Sorting Hat,noun,thing,Harry Potter,Harry Potter and the Philosopher's Stone,singular,
+pants,noun,thing,Star Wars,Star Wars Original Trilogy,singular,
+Final Heaven,noun,thing,Final Fantasy,Final Fantasy VII,singular,
+Highwind,noun,thing,Final Fantasy,Final Fantasy VII,singular,
+Phoenix Down,noun,thing,Final Fantasy,Final Fantasy VII,singular,
+Chekhov's gun,noun,thing,Star Trek,lol,singular,
+Sting,noun,thing,Lord of the Rings,The Hobbit,singular,
+Narsil,noun,thing,Lord of the Rings,Lord of the Rings,singular,
+Glamdring,noun,thing,Lord of the Rings,The Hobbit,singular,
+Zuul,noun,person,Ghostbusters,Ghostbusters,singular,
+Egon Spengler,noun,person,Ghostbusters,Ghostbusters,singular,
+Zorg,noun,person,The Fifth Element,The Fifth Element,singular,
+The Keymaster,noun,person,Ghostbusters,Ghostbusters,singular,
+Peter Venkman,noun,person,Ghostbusters,Ghostbusters,singular,
+proton pack,noun,thing,Ghostbusters,Ghostbusters,singular,
+ghost trap,noun,thing,Ghostbusters,Ghostbusters,singular,
+pint of ale,noun,thing,Lord of the Rings,The Fellowship of the Ring,singular,
+MUSHROOMS,noun,thing,Lord of the Rings,The Fellowship of the Ring,plural,
+lembas bread,noun,thing,Lord of the Rings,The Two Towers,singular,
+Arkenstone,noun,thing,Lord of the Rings,The Hobbit,singular,
+Phial of Galadriel,noun,thing,Lord of the Rings,Lord of the Rings,singular,
+Jawa,noun,species,Star Wars,Star Wars Original Trilogy,singular,
+Jawas,noun,species,Star Wars,Star Wars Original Trilogy,singular,
+Stay-Puft Marshmallow Man,noun,person,Ghostbusters,Ghostbusters,singular,
+the Nazgul,noun,species,Lord of the Rings,Lord of the Rings,plural,
+ugly cats,noun,species,REAL LIFE,REAL LIFE,plural,
+AT-AT,noun,thing,Star Wars,Star Wars Original Trilogy,singular,
+AT-ATs,noun,thing,Star Wars,Star Wars Original Trilogy,plural,
+AT-ST,noun,thing,Star Wars,Star Wars Original Trilogy,singular,
+AT-STs,noun,thing,Star Wars,Star Wars Original Trilogy,plural,
+Thrall,noun,person,Warcraft,Warcraft II,singular,
