@@ -25,10 +25,11 @@ quotes = """""Go to {place} and fetch me the {thing}," said {person}.
 "I am no man," said {person}.
 "{adj} {species}! You shall not pass!" shouted {person}.
 "{person}, I recognized your foul {thing} when I was brought on board."
-"I used to bullseye {pl_species} with my {thing}."
+"I used to bullseye {pl_species} with my {thing} back home."
 "Many {pl_species} {verb} to bring us this {thing}."
 "{person}, {thing} won't help us now!" {person} shouted.
-"Ah, {person}... We meet again," {person} said.""".split("\n")
+"Ah, {person}... We meet again," {person} said.
+"That's no moon. It's a {thing}!" gasped {person}.""".split("\n")
 
 non_quotes = """{person} {adv} {t_verb} the {thing}.
 {person} and {thing} simply don't mix.
