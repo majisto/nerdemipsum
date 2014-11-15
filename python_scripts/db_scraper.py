@@ -1,3 +1,4 @@
+from __future__ import print_function
 import mysql.connector
 import random
 import textwrap
@@ -82,7 +83,7 @@ def connect():
 		cnx = mysql.connector.connect(**config)
 		cursor = cnx.cursor(buffered=True)
 	except:
-		print "Connecting went wrong.  All is doom."
+		print ("Connecting went wrong.  All is doom.")
 		exit(-1)
 	return cnx, cursor
 
@@ -92,7 +93,7 @@ def fill_lists(cnx,cursor,table_name):
 	try:
 		cursor.execute(query)
 	except:
-		print "Such crap, much fail"
+		print ("Such crap, much fail")
 		cursor.close()
 		cnx.close()
 		exit(-1)
@@ -162,7 +163,7 @@ def main():
     make_lexicon()
     for i in range (0,numSent):
     	text += get_line() + "  "
-    print wrapper.fill(text)
+    print (wrapper.fill(text))
     cursor.close()
     cnx.close()
 
