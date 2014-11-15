@@ -3,10 +3,10 @@ import mysql.connector
 import csv
 
 config = {
-	'user': 'bdddb6df4683a5',
-	'password': 'fe4a4628',
-	'host': 'us-cdbr-azure-central-a.cloudapp.net',
-	'database': 'ni42mysql'
+	'user': 'b3797a47b0872a',
+	'password': 'aa6b40d9',
+	'host': 'us-cdbr-iron-east-01.cleardb.net',
+	'database': 'heroku_37b8a7deeb74751'
 }
 cnx = mysql.connector.connect(**config)
 cursor = cnx.cursor(buffered=True)
